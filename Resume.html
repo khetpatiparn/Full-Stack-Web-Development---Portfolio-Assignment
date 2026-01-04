@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="/css/alterBoxModel.css">
   <link rel="stylesheet" href="/css/font.css">
   <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/scrollbar.css">
+  <link rel="stylesheet" href="/css/mainResume.css">
   <title>Resume</title>
   <script src="https://kit.fontawesome.com/52f8227795.js" crossorigin="anonymous"></script>
-  <script type="module" src="header.js"></script>
+  <script type="module" src="/js/header.js"></script>
 </head>
 
 <body>
@@ -38,10 +41,92 @@
   </header>
 
   <main class="main">
-    <h1>Resume Page</h1>
+    <div class="m-container">
+      <div class="m-items sec1">
+        <div>RESUME</div>
+        <div>// My academic path & weapon inventory</div>
+        <div></div>
+      </div>
+      <div class="m-items sec2">
+        <div class="edu-his">
+          <i class="fa-solid fa-graduation-cap fa-lg"></i>
+          EDUCATION HISTORY
+        </div>
+        <table class="edu-table">
+          <thead>
+            <tr>
+              <th>YEAR</th>
+              <th>DEGREE</th>
+              <th>INSTITUTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2021 - Present</td>
+              <td>BS Computer Science</td>
+              <td>University of Technology</td>
+            </tr>
+            <tr>
+              <td>2018 — 2021</td>
+              <td>High School Diploma</td>
+              <td>City High School</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="m-items sec3">
+        <div class="tech-skill">
+          <i class="fa-solid fa-code fa-lg"></i>
+          TECHNICAL SKILLS
+        </div>
+        <div class="frontend">
+          <p><i class="fa-solid fa-terminal" style="color: #ffffff;"></i> FRONTEND</p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Tailwind</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="backend">
+          <p><i class="fa-solid fa-database" style="color: #ffffff;"></i> BACKEND</p>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="tools">
+          <p><i class="fa-solid fa-wrench" style="color: #ffffff;"></i> TOOLS</p>
+          <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Figma</li>
+            <li>Linux</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </main>
 
-  <footer class="footer">footer</footer>
+  <footer class="footer">
+    <div class="ft-text-con">Thank for visitting</div>
+    <div class="ft-social-con">
+      <div class="ft-social-items">Connect me :</div>
+      <div class="ft-social-items">
+        <a href="#"><i class="fa-brands fa-github fa-xl"></i>GitHub</a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a>
+        <a href="#"><i class="fa-solid fa-envelope fa-xl"></i>Email</a>
+      </div>
+    </div>
+    <div class="ft-credit-con">&copy; 2026 naaykhet. All Rights Reserved.<br>Designed & Developed by Patiparn Lakorn
+    </div>
+  </footer>
 </body>
 
 </html>

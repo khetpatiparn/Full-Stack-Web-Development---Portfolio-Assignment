@@ -1,0 +1,114 @@
+.m-container {
+  /* border: 1px solid black; */
+
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+
+.m-items.sec1 {
+  margin: 20px 0;
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.m-items.sec1 div:first-child {
+  /* border: 1px solid black; */
+  font-size: 3rem;
+}
+
+.m-items.sec1 div:nth-child(2) {
+  /* border: 1px solid black; */
+
+  font-family: "anakotmai-light";
+}
+
+.m-items.sec1 div:last-child {
+  border: 2px solid #ffd600;
+  width: 150px;
+}
+
+.m-items.sec2 {
+  /* border: 1px solid black; */
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.m-items.sec2 .edu-his {
+  font-size: 1.2rem;
+}
+.sec2 table {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* font-family: "anakotmai-light"; */
+  font-size: 0.8rem;
+}
+.sec2 thead th:nth-child(1) {
+  width: 20%;
+}
+
+.sec2 th,
+.sec2 td {
+  padding: 10px;
+}
+.sec2 th {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid black;
+}
+.sec2 td {
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.sec2 tbody tr td:first-child {
+  color: #8b5cf6;
+}
+.sec2 tbody tr td:last-child {
+  font-family: "anakotmai-light";
+}
+
+.m-items.sec3 {
+  /* border: 1px solid black; */
+  margin: 40px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.m-items.sec3 .tech-skill {
+  font-size: 1.2rem;
+}
+
+
+.m-items.sec3 div.frontend,
+.m-items.sec3 div.backend,
+.m-items.sec3 div.tools {
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  font-size: 0.8rem;
+  background-color: white;
+}
+
+.m-items.sec3 div.frontend p,
+.m-items.sec3 div.backend p,
+.m-items.sec3 div.tools p {
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  
+}
+
+.m-items.sec3 li {
+  font-family: "anakotmai-light";
+}
