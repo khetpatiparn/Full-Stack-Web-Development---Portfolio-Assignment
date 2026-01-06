@@ -1,0 +1,135 @@
+.sec-container> * {
+    /* border: 1px solid black; */
+}
+
+.sec-container {
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr);
+}
+
+/* ############## section 1 ################### */
+.sec-container div.section1 {
+    grid-row: 1/2;
+    grid-column: 1;
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.sec-container div.section1> * {
+    /* border: 2px solid black */
+}
+
+.sec-container div.section1 > div.headlines {
+    /* padding: 20px; */
+    font-size: 2.5rem;
+    text-align: center
+}
+
+.sec-container div.section1 > div.description {
+    font-family: "anakotmai-light";
+    color :rgb(116, 116, 116);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.sec-container div.section1 > div.line {
+    width: 50%;
+    margin : 10px;
+    align-self: center;
+    height: 3px;
+    background-color: #ffd600;
+}
+
+/* ############## section 2 ################### */
+.sec-container div.section2 {
+    grid-row: 2/3;
+    grid-column: 1;
+
+    margin: 20px 20px 50px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-container div.section2 > * {
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px black;
+}
+
+.sec-container div.section2 > div.contact-info-container {
+    border: 2px solid black;
+    background-color: #ffd600;
+    padding : 30px 20px;
+
+    display : flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec-container div.section2 > div.contact-info-container > div.contact-info-headline {
+    padding: 10px 10px 0 0;
+    border-bottom : 2px solid black;
+}
+
+.sec-container div.section2 > div.contact-info-container  div > span {
+    font-size : 0.8rem;
+}
+
+.sec-container div.section2 > div.contact-form  {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding : 30px 20px;
+    background-color: white;
+}
+
+.sec-container div.section2 > div.contact-form > form {
+    display : flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.contact-form > form > * {
+    /* border: 1px solid black; */
+}
+
+div.contact-form > form > input,
+div.contact-form > form > textarea {
+    background-color: #8a8a8a;
+    padding: 10px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+form > input::placeholder {
+    color: white;
+    font-family: "anakotmai-medium";
+}
+
+form > textarea::placeholder {
+    color: white;
+    font-family: "anakotmai-medium";
+}
+
+form > button {
+    margin-top: 10px;
+    padding: 20px;
+    border: 0;
+    color: white;
+    background-color:black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+form > button > div {
+    font-family: "anakotmai-medium";
+}
+
+form > button:hover {
+    background-color: #8b5cf6
+}
