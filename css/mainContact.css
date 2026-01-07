@@ -1,6 +1,6 @@
-.sec-container> * {
-    /* border: 1px solid black; */
-}
+/* .sec-container> * {
+    border: 1px solid black;
+} */
 
 .sec-container {
     display: grid;
@@ -17,9 +17,9 @@
     margin: 20px;
 }
 
-.sec-container div.section1> * {
-    /* border: 2px solid black */
-}
+/* .sec-container div.section1> * {
+    border: 2px solid black
+} */
 
 .sec-container div.section1 > div.headlines {
     /* padding: 20px; */
@@ -91,9 +91,9 @@
     gap: 10px;
 }
 
-div.contact-form > form > * {
-    /* border: 1px solid black; */
-}
+/* div.contact-form > form > * {
+    border: 1px solid black;
+} */
 
 div.contact-form > form > input,
 div.contact-form > form > textarea {
