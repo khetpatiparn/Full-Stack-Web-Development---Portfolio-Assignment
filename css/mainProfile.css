@@ -85,6 +85,10 @@ ul.interests > li {
   width: 16rem;
   transition: all 0.2s ease;
 }
+.work-cv > a:nth-child(1) + a:link {
+  color: black;
+}
+
 .work-cv > a:nth-child(1) + a:visited {
   color: black;
 }

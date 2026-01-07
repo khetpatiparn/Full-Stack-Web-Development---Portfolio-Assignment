@@ -88,20 +88,13 @@
 .m-items.sec3 .tech-skill {
   font-size: 1.2rem;
 }
-
-
-.m-items.sec3 div.frontend,
-.m-items.sec3 div.backend,
-.m-items.sec3 div.tools {
+.m-items.sec3 > div:not(.tech-skill) {
   border: 2px solid black;
   box-shadow: 5px 5px black;
   font-size: 0.8rem;
   background-color: white;
 }
-
-.m-items.sec3 div.frontend p,
-.m-items.sec3 div.backend p,
-.m-items.sec3 div.tools p {
+.m-items.sec3 > div:not(.tech-skill) p {
   margin: 0;
   background-color: black;
   color: white;
@@ -111,4 +104,5 @@
 
 .m-items.sec3 li {
   font-family: "anakotmai-light";
+  list-style-type:square;
 }
