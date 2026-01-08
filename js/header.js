@@ -1,3 +1,4 @@
+// toggle menu
 const menuToggle = document.querySelector(".menu-toggle");
 const navCon = document.querySelector(".nav-con");
 
@@ -12,3 +13,6 @@ const showNav = () => {
   navCon.classList.toggle("is-active");
 };
 menuToggle.addEventListener("click", showNav);
+
+
+

@@ -87,10 +87,7 @@
   padding: 20px;
   text-decoration: none;
 }
-.nav-items:nth-child(1) {
-  border: 3px solid black;
-  background-color: #ffd600;
-}
+
 .nav-items:visited {
   color: black;
 }
