@@ -45,8 +45,8 @@
 }
 .sec2 table {
   width: 100%;
-  border: 2px solid black;
-  box-shadow: 5px 5px black;
+  border: 2px solid var(--border-color);
+  box-shadow: 5px 5px var(--shadow-color);
   border-collapse: collapse;
   table-layout: fixed;
   /* font-family: "anakotmai-light"; */
@@ -54,6 +54,10 @@
 }
 .sec2 thead th:nth-child(1) {
   width: 20%;
+}
+
+.sec2 tbody {
+  background-color: var(--bg-card);
 }
 
 .sec2 th,
@@ -89,10 +93,10 @@
   font-size: 1.2rem;
 }
 .m-items.sec3 > div:not(.tech-skill) {
-  border: 2px solid black;
-  box-shadow: 5px 5px black;
+  border: 2px solid var(--border-color);
+  box-shadow: 5px 5px var(--shadow-color);
   font-size: 0.8rem;
-  background-color: white;
+  background-color: var(--bg-card);
 }
 .m-items.sec3 > div:not(.tech-skill) p {
   margin: 0;
