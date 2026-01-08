@@ -1,0 +1,84 @@
+.sec-con > * {
+  /* border : 1px solid rgb(255, 39, 39); */
+}
+
+.sec-con {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+/* ################ sec 1 ################ */
+.sec-con > .sec1 {
+  grid-row: 1/2;
+  grid-column: 1;
+
+  margin: 20px;
+  font-size: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec-con > .sec1 div.line {
+  width: 50%;
+  margin: 10px;
+  height: 3px;
+  background-color: #ffd600;
+}
+/* ################ sec 2 ################ */
+.sec-con > .sec2 {
+  /* border: 1px solid red; */
+  grid-row: 2/3;
+  grid-column: 1;
+
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.sec2 .work {
+  border: 3px solid black;
+  background-color: white;
+  box-shadow: 5px 5px black;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+
+.sec2 .work a {
+  background-color: #ffd600;
+  /* color: black; */
+  padding: 20px;
+  text-decoration: none;
+  border-left : 3px solid black;
+  transition: all 0.2s ease;
+}
+
+.sec2 .work a:link {
+  color: black;
+}
+
+
+.sec2 .work a:visited {
+  color: black;
+}
+
+.sec2 .work a:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.sec2 .work:hover {
+  box-shadow: 0 0 0 black;
+  transform: translate(5px, 5px);
+  background-color: rgb(153, 153, 153);
+}
