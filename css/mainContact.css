@@ -4,7 +4,7 @@
 
 .sec-container {
     display: grid;
-    grid-template-rows: repeat(auto, 1fr);
+    grid-template-rows: repeat(2, auto);
 }
 
 /* ############## section 1 ################### */
