@@ -117,7 +117,7 @@ form > button {
     padding: 20px;
     border: 0;
     color: var(--text-btn);
-    background-color:(--bg-btn);
+    background-color: var(--bg-btn);
 
     display: flex;
     justify-content: space-between;

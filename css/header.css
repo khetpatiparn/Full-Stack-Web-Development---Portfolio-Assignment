@@ -20,7 +20,7 @@
   border: 1px solid var(--border-color);
   background-color: var(--bg-logo);
 
-  display: flex;
+  display: flex;  
   align-items: center;
 
   padding: 10px 10px;
@@ -83,6 +83,10 @@
 
   visibility: hidden;
 }
+.nav-con.is-active {
+  visibility: visible;
+}
+
 .nav-items {
   padding: 20px;
   text-decoration: none;
@@ -92,9 +96,6 @@
   color: var(--text-main);
 }
 
-.nav-con.is-active {
-  visibility: visible;
-}
 
 .main {
   margin-top: 80px;
